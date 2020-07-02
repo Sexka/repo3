@@ -1,16 +1,7 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 磊哥哥
-  Date: 2020/5/22
-  Time: 17:23
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-<h1>这是他妈的标题</h1>
-</body>
-</html>
+<h1>相对路径</h1>
+<a href="./MyFirstjspWeb.jsp">点我</a>
+<a href=web.xml>点我</a>
+<%--表示源文件所在目录的上一级目录--%>
+<h1>绝对路径</h1>
+<a href="17541127Rika.zip">点我</a>
+

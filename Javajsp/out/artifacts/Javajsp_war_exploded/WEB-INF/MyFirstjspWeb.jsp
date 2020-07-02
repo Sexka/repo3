@@ -11,6 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<h1>这是他妈的标题</h1>
+<%!
+    int count = 0;
+    synchronized void count() {count++; }%>
+<% count();
+    out.println("这是第" + count + "个访问者!"); %>
 </body>
 </html>
